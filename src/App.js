@@ -72,7 +72,7 @@ function App() {
     if (ans) Process_string(words, ans.event, "curr");
     if (prevAns) Process_string(words, prevAns.event, "prev");
     if (afterAns) Process_string(words, afterAns.event, "after");
-  });
+  }, [ans, prevAns, afterAns]);
 
   return (
     <div className="App">

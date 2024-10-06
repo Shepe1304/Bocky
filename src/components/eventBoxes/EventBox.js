@@ -33,9 +33,10 @@ const EventBox = (props) => {
                   )}
                   {props.wordSearched ? (
                     <>
-                      {props.type == "curr"
+                      Search Result
+                      {/* {props.type == "curr"
                         ? "Best Search Result"
-                        : "Search Result"}
+                        : "Search Result"} */}
                     </>
                   ) : null}
                 </div>

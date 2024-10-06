@@ -29,8 +29,18 @@ const Searchbar = (props) => {
       return b[0] - a[0];
     });
 
-    if (record[0][0] > 0) props.setAns(data[record[0][1]]);
-    if (record[1][0] > 0) props.setPrevAns(data[record[1][1]]);
+    while (record.length > 3) {
+      record.pop();
+    }
+
+    record.sort(function (a, b) {
+      return data[a[1]].year - data[b[1]].year;
+    });
+    console.log(record);
+    
+
+    if (record[0][0] > 0) props.setPrevAns(data[record[0][1]]);
+    if (record[1][0] > 0) props.setAns(data[record[1][1]]);
     if (record[2][0] > 0) props.setAfterAns(data[record[2][1]]);
 
     props.setWordSearched(true);
