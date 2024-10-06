@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import "./EventBox.css";
 import paper from "../images/paper3.png";
 import paper_other from "../images/paper4.png";
-// import InformationLog from "../informationLog/InformationLog";
 
 const EventBox = (props) => {
   const date = new Date();

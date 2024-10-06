@@ -17,12 +17,9 @@ const Searchbar = (props) => {
     for (let j = 0; j < data.length; j++) {
       record.push([0, j]);
     }
-    console.log(record);
-    console.log(words);
 
     for (let i = 0; i < words.length; i++) {
       for (let j = 0; j < data.length; j++) {
-        console.log(record[j][0], record[j][1]);
         if (data[j].event.toLowerCase().includes(words[i])) {
           record[j][0]++;
         }
@@ -31,13 +28,10 @@ const Searchbar = (props) => {
     record.sort(function (a, b) {
       return b[0] - a[0];
     });
-    console.log(record);
-    console.log(record[0][0], record[1][0], record[2][0]);
 
     if (record[0][0] > 0) props.setAns(data[record[0][1]]);
     if (record[1][0] > 0) props.setPrevAns(data[record[1][1]]);
     if (record[2][0] > 0) props.setAfterAns(data[record[2][1]]);
-    console.log(props.prevAns, props.ans, props.afterAns);
 
     props.setWordSearched(true);
   };

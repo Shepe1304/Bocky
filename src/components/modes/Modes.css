@@ -18,7 +18,6 @@
   width: 120px;
   border-radius: 8px;
   background-color: white;
-  /* margin-top: 10px; */
 }
 
 .modes--science,
@@ -38,6 +37,5 @@
 
 .current_mode {
   background-color: rgb(245, 202, 94);
-  /* border: 4px solid white; */
   padding: -4px;
 }

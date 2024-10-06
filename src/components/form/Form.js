@@ -4,7 +4,6 @@ import "./Form.css";
 const Form = (props) => {
   const Search = (input, data) => {
     if (input == "") return;
-    // console.log(data.length);
     props.setAns(null);
     props.setPrevAns(null);
     props.setAfterAns(null);
@@ -61,10 +60,8 @@ const Form = (props) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(parseFloat(props.input));
 
     if (isNaN(parseFloat(props.input))) {
-      console.log(props.searched);
 
       alert(
         "Years with letters may exist one day. But until then... Please enter a number!"

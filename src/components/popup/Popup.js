@@ -3,16 +3,12 @@ import "./Popup.css";
 import x_icon from "../images/x.png";
 import magnifier from "../images/magnifier.png";
 import Email from "../contact-form/Email";
-import EmailForm from "../contact-form/EmailForm";
 
 const Popup = (props) => {
   const ClosePopup = () => {
     props.setShowPopup(!props.showPopup);
     props.setShowPopupType("");
   };
-
-  console.log(props.showPopupType);
-  
 
   return (
     <>

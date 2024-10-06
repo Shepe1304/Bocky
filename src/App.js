@@ -3,7 +3,6 @@ import { useEffect, useState } from "react";
 import Header from "./components/header/Header";
 import Footer from "./components/footer/Footer";
 import Form from "./components/form/Form";
-import InformationLog from "./components/informationLog/InformationLog";
 import EventBoxes from "./components/eventBoxes/EventBoxes";
 import Modes from "./components/modes/Modes";
 
@@ -45,8 +44,6 @@ function App() {
     {
       mode == 1 ? setData(science_data) : setData(history_data);
     }
-    console.log(mode);
-    console.log(data);
     setSearched(false);
     setWordSearched(false);
     setInput("");
@@ -135,13 +132,6 @@ function App() {
         setDisplayWordsCurr={setDisplayWordsCurr}
         setDisplayWordsAfter={setDisplayWordsAfter}
       />
-      {/* <InformationLog
-        input={input}
-        setInput={setInput}
-        searched={searched}
-        ans={ans}
-        setAns={setAns}
-      /> */}
       <EventBoxes
         input={input}
         setInput={setInput}

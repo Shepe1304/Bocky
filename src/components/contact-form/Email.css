@@ -1,7 +1,5 @@
 .email {
-  /* height: 100vh; */
   width: 100%;
-  /* background-color: inherit; */
   font-family: "Roboto Mono", monospace;
   color: white;
   display: flex;
@@ -22,7 +20,6 @@
   display: flex;
   flex-direction: column;
   overflow: hidden;
-  /* background-color: #2b7a78; */
 }
 
 .email--form {
