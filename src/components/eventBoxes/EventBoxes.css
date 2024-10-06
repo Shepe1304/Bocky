@@ -1,0 +1,4 @@
+.eventBoxes {
+  display: flex;
+  justify-content: space-around;
+}

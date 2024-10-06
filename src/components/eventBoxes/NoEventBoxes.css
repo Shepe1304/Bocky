@@ -1,0 +1,24 @@
+.noEventBoxes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.noEventBoxes--textbox {
+  /* background-color: #2b7a78; */
+  background-color: #def2f1;
+  font-family: "Playwrite DE Grund", cursive;
+  font-size: 20px;
+  padding: 20px;
+  border-radius: 8px;
+  position: relative;
+}
+
+.noEventBoxes--arrow {
+  border: solid 10px transparent;
+  border-right-color: #def2f1;
+  position: absolute;
+  left: -18px;
+  top: 50%;
+  transform: translate(0, -50%);
+}

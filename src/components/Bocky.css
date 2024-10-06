@@ -1,0 +1,7 @@
+.bocky {
+  transition: rotate 0.2s;
+}
+
+.bocky:hover {
+  rotate: -5deg;
+}

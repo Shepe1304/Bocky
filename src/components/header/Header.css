@@ -1,0 +1,52 @@
+/* .header--dummy {
+  height: 80px;
+  position: relative
+} */
+
+.header {
+  height: 80px;
+  background-color: #2b7a78;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  position: relative;
+  /* position: fixed; */
+  /* left: 0;
+  top: 0;
+  right: 0; */
+}
+
+.header--logo {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+.header--logo_icon {
+  height: 50px;
+  position: absolute;
+  top: 10px;
+  right: -20px;
+  rotate: 20deg;
+}
+
+.header--slogan {
+  text-align: center;
+  font-family: "Playwrite DE Grund", cursive;
+}
+
+.header--slogan_main {
+  font-weight: bold;
+  color: rgb(245, 202, 94);
+  font-size: 20px;
+}
+
+/* @media screen and (max-width: 480px) {
+  .header {
+    position: absolute;
+    left: 0;
+    right: 0;
+  }
+} */

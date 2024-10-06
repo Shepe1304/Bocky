@@ -1,0 +1,42 @@
+.searchbar--container {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  right: 20px;
+  top: 20px;
+  font-family: "Playwrite DE Grund", cursive;
+}
+
+.searchbar--headline {
+  color: white;
+}
+
+.searchbar--input {
+  font-family: "Playwrite DE Grund", cursive;
+  text-align: center;
+  border: none;
+  border-radius: 8px;
+  padding: 5px 0;
+  font-size: 12px;
+  max-width: 120px;
+}
+
+.searchbar--search_icon {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.searchbar--search_icon img {
+  width: 100%;
+  height: 100%;
+  transition: all 0.1s;
+}
+
+.searchbar--search_icon:hover img{
+  width: 25px;
+  height: 25px;
+  margin: -2.5px;
+}

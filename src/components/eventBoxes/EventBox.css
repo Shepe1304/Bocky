@@ -1,0 +1,74 @@
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 100px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2b7a78;
+  border-radius: 100px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #215f5d;
+}
+
+.eventBox {
+  width: 30%;
+  height: 450px;
+  position: relative;
+  /* margin-top: 90px; */
+  margin-top: -30px;
+  font-family: "Playwrite DE Grund", cursive;
+}
+
+.eventBox--background {
+  z-index: -100;
+  position: absolute;
+  left: 0;
+  right: 0;
+  /* top: -90px; */
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.eventBox--content {
+  /* padding: 60px 65px; */
+  margin: 90px 0 0 65px;
+  padding-right: 5px;
+  height: 320px;
+  line-height: 28px;  
+  text-wrap: wrap;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.eventBox_content--heading {
+  font-size: 22px;
+  margin-bottom: 2px;
+  text-decoration: underline;
+  text-align: center;
+}
+
+
+.eventBox_content--time_distance {
+  display: flex;
+  gap: 5px;
+  color: rgb(95, 95, 95);
+  font-style: italic;
+}
+
+.eventBox .small_gap {
+  margin-top: 25px;
+}
+
+.eventBox_content--year, .eventBox_content--event {
+  display: flex;
+  gap: 5px;
+}

@@ -1,0 +1,35 @@
+.footer {
+  height: 40px;
+  background-color: #2b7a78;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.footer--about_us,
+.footer--email,
+.footer--year {
+  font-family: "Playwrite DE Grund", cursive;
+  padding: 2px;
+  border-radius: 4px;
+}
+
+.footer--about_us {
+  cursor: pointer;
+  transition: background-color 0.1s, color 0.1s;
+}
+
+.footer--email {
+  color: rgb(245, 202, 94);
+  cursor: pointer;
+}
+
+.footer--about_us:hover {
+  color: black;
+  background-color: rgb(245, 202, 94);;
+}
