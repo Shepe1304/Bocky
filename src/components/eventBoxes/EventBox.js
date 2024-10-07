@@ -50,10 +50,13 @@ const EventBox = (props) => {
                         {date.getFullYear() - props.ans.year} years ago
                       </div>
                       {props.input - props.ans.year != 0 ? (
-                        <span style={{ fontSize: "23px" }}>&#903;</span>
+                        <span style={{ fontSize: "23px" }}>
+                          {props.input != "" ? <>&#903;</> : null}
+                        </span>
                       ) : null}
                       <div className="eventBox_content--years_ago">
-                        {props.input - props.ans.year != 0 ? (
+                        {props.input - props.ans.year != 0 &&
+                        props.input != "" ? (
                           <>
                             {Math.abs(props.input - props.ans.year)}{" "}
                             {Math.abs(props.input - props.ans.year) == 1
