@@ -49,7 +49,7 @@ const Email = (props) => {
           />
           <input
             type="text"
-            placeholder="email..."
+            placeholder="Your email..."
             className="email--name_email"
             name="from_email"
             value={formemail}
