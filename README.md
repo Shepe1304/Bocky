@@ -1,4 +1,4 @@
-**Inspiration**
+#Inspiration
 When we were young, we were inspired by books and comics about famous scientists and history because they were accessible and easy to read. Now, as we see our siblings struggle with common online materials such as Wikipedia, we decided to make a website that helps foster their curiosity and aid their learning with scientific facts and historical events.
 
 **What it does**
