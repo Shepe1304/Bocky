@@ -23,5 +23,5 @@ We have discussed how we can further improve our website, but because of time li
 HTML, CSS, JavaScript, EmailJS, ReactJS
 
 # Try it out
- Website: https://bockybook.netlify.app/
- Presentation: https://www.canva.com/design/DAGS1pLWCbE/5VhbtyEfv2ai8YFf4_UP7Q/edit
+ 1. Website: https://bockybook.netlify.app/
+ 2. Presentation: https://www.canva.com/design/DAGS1pLWCbE/5VhbtyEfv2ai8YFf4_UP7Q/edit
